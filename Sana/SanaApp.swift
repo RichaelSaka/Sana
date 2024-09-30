@@ -11,7 +11,7 @@ import SwiftUI
 struct SanaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EnvironmentDashboard()
         }
     }
 }
