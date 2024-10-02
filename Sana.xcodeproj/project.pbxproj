@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		F20826B02CA9110C00EE9828 /* SanaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20826AF2CA9110C00EE9828 /* SanaApp.swift */; };
-		F20826B22CA9110C00EE9828 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20826B12CA9110C00EE9828 /* ContentView.swift */; };
+		F20826B22CA9110C00EE9828 /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20826B12CA9110C00EE9828 /* EnvironmentView.swift */; };
 		F20826B42CA9110E00EE9828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20826B32CA9110E00EE9828 /* Assets.xcassets */; };
 		F20826B72CA9110E00EE9828 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20826B62CA9110E00EE9828 /* Preview Assets.xcassets */; };
+		F20826BE2CAAF1CA00EE9828 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20826BD2CAAF1CA00EE9828 /* LocationManager.swift */; };
+		F20826C02CACF8ED00EE9828 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20826BF2CACF8ED00EE9828 /* SurveyView.swift */; };
+		F20826C22CADC50300EE9828 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20826C12CADC50300EE9828 /* HomeView.swift */; };
+		F20826C42CADCF1700EE9828 /* EAAMO.png in Resources */ = {isa = PBXBuildFile; fileRef = F20826C32CADCF1600EE9828 /* EAAMO.png */; };
+		F20826C72CADD1C000EE9828 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = F20826C62CADD1C000EE9828 /* APIKeys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F20826AC2CA9110C00EE9828 /* Sana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20826AF2CA9110C00EE9828 /* SanaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanaApp.swift; sourceTree = "<group>"; };
-		F20826B12CA9110C00EE9828 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F20826B12CA9110C00EE9828 /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
 		F20826B32CA9110E00EE9828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20826B62CA9110E00EE9828 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F20826BD2CAAF1CA00EE9828 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F20826BF2CACF8ED00EE9828 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		F20826C12CADC50300EE9828 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F20826C32CADCF1600EE9828 /* EAAMO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EAAMO.png; sourceTree = "<group>"; };
+		F20826C52CADD18B00EE9828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F20826C62CADD1C000EE9828 /* APIKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,14 @@
 		F20826AE2CA9110C00EE9828 /* Sana */ = {
 			isa = PBXGroup;
 			children = (
+				F20826C52CADD18B00EE9828 /* Info.plist */,
 				F20826AF2CA9110C00EE9828 /* SanaApp.swift */,
-				F20826B12CA9110C00EE9828 /* ContentView.swift */,
+				F20826BF2CACF8ED00EE9828 /* SurveyView.swift */,
+				F20826B12CA9110C00EE9828 /* EnvironmentView.swift */,
+				F20826C12CADC50300EE9828 /* HomeView.swift */,
+				F20826BD2CAAF1CA00EE9828 /* LocationManager.swift */,
+				F20826C62CADD1C000EE9828 /* APIKeys.plist */,
+				F20826C32CADCF1600EE9828 /* EAAMO.png */,
 				F20826B32CA9110E00EE9828 /* Assets.xcassets */,
 				F20826B52CA9110E00EE9828 /* Preview Content */,
 			);
@@ -126,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20826B72CA9110E00EE9828 /* Preview Assets.xcassets in Resources */,
+				F20826C72CADD1C000EE9828 /* APIKeys.plist in Resources */,
+				F20826C42CADCF1700EE9828 /* EAAMO.png in Resources */,
 				F20826B42CA9110E00EE9828 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F20826B22CA9110C00EE9828 /* ContentView.swift in Sources */,
+				F20826C02CACF8ED00EE9828 /* SurveyView.swift in Sources */,
+				F20826B22CA9110C00EE9828 /* EnvironmentView.swift in Sources */,
 				F20826B02CA9110C00EE9828 /* SanaApp.swift in Sources */,
+				F20826C22CADC50300EE9828 /* HomeView.swift in Sources */,
+				F20826BE2CAAF1CA00EE9828 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +297,16 @@
 				DEVELOPMENT_TEAM = 42YSBDY7H6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sana/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Sana needs access to your location to provide local risk alerts";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Sana needs access to your location to provide local risk alerts";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +331,16 @@
 				DEVELOPMENT_TEAM = 42YSBDY7H6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sana/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Sana needs access to your location to provide local risk alerts";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Sana needs access to your location to provide local risk alerts";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
