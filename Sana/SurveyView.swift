@@ -32,9 +32,9 @@ struct SurveyView: View {
         ScrollView {
             VStack(spacing: 20) {
                 // Survey Questions
-                SurveyQuestionView(question: "Question 1", isChecked: $viewModel.question1Answered)
-                SurveyQuestionView(question: "Question 2", isChecked: $viewModel.question2Answered)
-                SurveyQuestionView(question: "Question 3", isChecked: $viewModel.question3Answered)
+                SurveyQuestionView(question: "Do you drink?", isChecked: $viewModel.question1Answered)
+                SurveyQuestionView(question: "Do you smoke?", isChecked: $viewModel.question2Answered)
+                SurveyQuestionView(question: "Do you have a family history of breast cancer?", isChecked: $viewModel.question3Answered)
                 
                 // Calculate Button
                 Button(action: {
